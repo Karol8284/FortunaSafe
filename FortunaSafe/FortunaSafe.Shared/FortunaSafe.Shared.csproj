@@ -17,4 +17,15 @@
     <PackageReference Include="SQLitePCLRaw.bundle_e_sqlcipher" Version="2.1.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Files Crypto\" />
+    <Folder Include="Pages\DataBase\" />
+    <Folder Include="Pages\PasswordMenager\" />
+    <Folder Include="Pages\PasswordGenerator\" />
+    <Folder Include="Services\DataBase\" />
+    <Folder Include="Services\Files Crypto\" />
+    <Folder Include="Services\PasswordGenerator\" />
+    <Folder Include="Services\PasswordMenager\" />
+  </ItemGroup>
+
 </Project>
