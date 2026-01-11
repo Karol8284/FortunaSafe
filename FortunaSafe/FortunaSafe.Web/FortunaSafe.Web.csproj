@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FortunaSafe.Web.Client\FortunaSafe.Web.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.9" />
+    <PackageReference Include="MudBlazor" Version="8.15.0" />
   </ItemGroup>
 
 </Project>

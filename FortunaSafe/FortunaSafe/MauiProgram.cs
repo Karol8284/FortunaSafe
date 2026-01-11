@@ -1,6 +1,7 @@
 ﻿using FortunaSafe.Services;
 using FortunaSafe.Shared.Services;
 using Microsoft.Extensions.Logging;
+using MudBlazor.Services;
 
 namespace FortunaSafe
 {
@@ -20,6 +21,8 @@ namespace FortunaSafe
             builder.Services.AddSingleton<IFormFactor, FormFactor>();
 
             builder.Services.AddMauiBlazorWebView();
+
+            builder.Services.AddMudServices();
 
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();
