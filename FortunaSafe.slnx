@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FortunaSafe/FortunaSafe.Shared/FortunaSafe.Shared.csproj" />
+  <Project Path="FortunaSafe/FortunaSafe.Web.Client/FortunaSafe.Web.Client.csproj" />
+  <Project Path="FortunaSafe/FortunaSafe.Web/FortunaSafe.Web.csproj" />
+  <Project Path="FortunaSafe/FortunaSafe/FortunaSafe.csproj" />
+</Solution>
